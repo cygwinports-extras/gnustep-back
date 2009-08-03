@@ -1,0 +1,4 @@
+category: GNUstep
+requires: libart_lgpl_2_2 libfreetype6 libgcc1 libGL1 libgnustep-base1.18 libgnustep-gui0.16 libobjc2 libX11_6 libXext6 libXmu6
+sdesc: "GNUstep GUI library backend"
+ldesc: "X11/Art backend for the GNUstep GUI library."

@@ -1,0 +1,13 @@
+inherit gnustep
+
+DESCRIPTION="GNUstep GUI backend"
+HOMEPAGE="http://www.gnustep.org/"
+SRC_URI="mirror://gnustep/core/${P}.tar.gz"
+
+CYGCONF_ARGS="
+	--enable-graphics=art
+	--enable-server=x11
+	--disable-wgl
+	ac_cv_lib_gdi32_main=no
+	ac_cv_lib_msimg32_main=no
+"

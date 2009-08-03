@@ -1,0 +1,98 @@
+gnustep-back
+------------------------------------------
+X11/Art backend for the GNUstep GUI library.
+
+Runtime requirements:
+  cygwin-1.7.0-56
+  libart_lgpl_2_2-2.3.20-10
+  libfreetype6-2.3.9-1
+  libgcc1-4.3.2-2
+  libGL1-7.2-10
+  libgnustep-base1.18-1.18.0-1
+  libgnustep-gui0.16-0.16.0-1
+  libobjc2-4.3.2-2
+  libX11_6-1.2-10
+  libXext6-1.0.5-10
+  libXmu6-1.0.4-10
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.9.9-1
+  gcc4-core-4.3.2-2
+  gcc4-objc-4.3.2-2
+  gnustep-make-2.2.0-1
+  make-3.81-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnustep.org/
+
+Canonical download:
+  http://ftpmain.gnustep.org/pub/gnustep/core/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnustep-back-0.16.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnustep-back-0.16.0-X.cygport all
+
+This will create:
+  /usr/src/gnustep-back-0.16.0-X-src.tar.bz2
+  /usr/src/gnustep-back-0.16.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gpbs.exe
+  /usr/lib/GNUstep/Bundles/libgnustep-back-016.bundle/Resources/English.lproj/nfontFaceNames.strings
+  /usr/lib/GNUstep/Bundles/libgnustep-back-016.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Bundles/libgnustep-back-016.bundle/Resources/Swedish.lproj/nfontFaceNames.strings
+  /usr/lib/GNUstep/Bundles/libgnustep-back-016.bundle/libgnustep-back-016.dll
+  /usr/lib/GNUstep/Bundles/libgnustep-back-016.bundle/stamp.make
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/FontInfo.plist
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019003l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019003l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019003l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019004l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019004l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019004l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019023l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019023l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019023l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019024l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019024l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019024l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019043l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019043l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019043l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019044l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019044l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019044l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019063l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019063l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019063l.pfm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019064l.afm
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019064l.pfb
+  /usr/lib/GNUstep/Fonts/Helvetica.nfont/n019064l.pfm
+  /usr/share/doc/gnustep-back/ANNOUNCE
+  /usr/share/doc/gnustep-back/COPYING
+  /usr/share/doc/gnustep-back/COPYING.LIB
+  /usr/share/doc/gnustep-back/ChangeLog
+  /usr/share/doc/gnustep-back/NEWS
+  /usr/share/doc/gnustep-back/README
+  /usr/share/man/man1/gpbs.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.16.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
